@@ -53,7 +53,7 @@ public class TransposeLongestWord {
 	{
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the path of file:");
+		System.out.println("Enter the full path of file with file name and its extension:");
 		String Filenamepath = sc.nextLine(); // Reading the input file path from the user
 		
 			String logestword = longestWord(Filenamepath); // finding the longest word
