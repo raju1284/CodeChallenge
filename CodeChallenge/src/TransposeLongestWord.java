@@ -9,7 +9,7 @@ public class TransposeLongestWord {
 		String longest_word = "";
 	       String current;
 	       //Checking the file format
-	       if (Filepath.contains(".txt"))
+	       if (Filepath.endsWith(".txt"))
 			{
 	    	   try {
 	    		   	//Reading the file to scanner class
